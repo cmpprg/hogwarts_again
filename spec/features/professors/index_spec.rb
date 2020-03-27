@@ -10,19 +10,19 @@ RSpec.describe "As a visitor on the professor index page", type: :feature do
 
     within '.list' do
       within "#professor-#{snape.id}" do
-        expect(page).to have_contentj("Name: #{snape.name}")
-        expect(page).to have_contentj("Age: #{snape.age}")
-        expect(page).to have_contentj("Specialty: #{snape.specialty}")
+        expect(page).to have_content("Name: #{snape.name}")
+        expect(page).to have_content("Age: #{snape.age}")
+        expect(page).to have_content("Specialty: #{snape.specialty}")
       end
       within "#professor-#{hagarid.id}" do
-        expect(page).to have_contentj("Name: #{hagarid.name}")
-        expect(page).to have_contentj("Age: #{hagarid.age}")
-        expect(page).to have_contentj("Specialty: #{hagarid.specialty}")
+        expect(page).to have_content("Name: #{hagarid.name}")
+        expect(page).to have_content("Age: #{hagarid.age}")
+        expect(page).to have_content("Specialty: #{hagarid.specialty}")
       end
       within "#professor-#{lupin.id}" do
-        expect(page).to have_contentj("Name: #{lupin.name}")
-        expect(page).to have_contentj("Age: #{lupin.age}")
-        expect(page).to have_contentj("Specialty: #{lupin.specialty}")
+        expect(page).to have_content("Name: #{lupin.name}")
+        expect(page).to have_content("Age: #{lupin.age}")
+        expect(page).to have_content("Specialty: #{lupin.specialty}")
       end
     end
   end
