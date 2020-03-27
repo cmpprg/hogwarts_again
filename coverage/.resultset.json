@@ -205,13 +205,31 @@
       "/Users/ryancamp/turing/2module/challenge/hogwarts_again/config/routes.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
       "/Users/ryancamp/turing/2module/challenge/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/hogwarts_again/spec/models/professor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -280,8 +298,24 @@
           1,
           null
         ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/hogwarts_again/app/controllers/professors_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/hogwarts_again/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1585322032
+    "timestamp": 1585322696
   }
 }
