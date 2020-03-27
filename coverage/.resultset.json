@@ -207,6 +207,8 @@
           1,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -243,6 +245,39 @@
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/hogwarts_again/spec/features/students/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
           null,
           null,
           null,
@@ -352,8 +387,17 @@
           1,
           null
         ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/hogwarts_again/app/controllers/students_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1585324419
+    "timestamp": 1585325373
   }
 }
