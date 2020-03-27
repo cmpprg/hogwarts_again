@@ -1,6 +1,6 @@
 class ProfessorsController < ApplicationController
   def index
-    @professors = Professor.all
+    @professors = Professor.all.order(:name)
   end
 
   def show
